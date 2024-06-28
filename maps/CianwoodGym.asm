@@ -38,7 +38,20 @@ CianwoodGymChuckScript:
 	waitbutton
 	closetext
 	winlosstext ChuckLossText, 0
+	readvar VAR_BADGES
+	ifequal 6, .LoadHardTeam
+	ifequal 5, .LoadMediumTeam
+	ifequal 4, .LoadEasyTeam
+.LoadHardTeam:
+	loadtrainer CHUCK, 3
+	sjump .BattleChuck
+.LoadMediumTeam:
+	loadtrainer CHUCK, 2
+	sjump .BattleChuck
+.LoadEasyTeam:
 	loadtrainer CHUCK, CHUCK1
+	sjump .BattleChuck
+.BattleChuck
 	startbattle
 	reloadmapafterbattle
 	setevent EVENT_BEAT_CHUCK

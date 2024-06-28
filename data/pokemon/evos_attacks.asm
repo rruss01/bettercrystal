@@ -1136,6 +1136,7 @@ DoduoEvosAttacks:
 	db 13, FURY_ATTACK
 	db 21, TRI_ATTACK
 	db 25, RAGE
+	db 28, DOUBLE_HIT
 	db 33, DRILL_PECK
 	db 37, AGILITY
 	db 0 ; no more level-up moves
@@ -1498,6 +1499,7 @@ WeezingEvosAttacks:
 	db 21, SLUDGE
 	db 25, SMOKESCREEN
 	db 33, HAZE
+	db 39, DOUBLE_HIT
 	db 44, EXPLOSION
 	db 51, DESTINY_BOND
 	db 0 ; no more level-up moves
@@ -1564,7 +1566,7 @@ KangaskhanEvosAttacks:
 	db 1, COMET_PUNCH
 	db 7, LEER
 	db 13, BITE
-	db 19, TAIL_WHIP
+	db 19, DOUBLE_HIT
 	db 25, MEGA_PUNCH
 	db 31, RAGE
 	db 37, ENDURE
@@ -1679,6 +1681,7 @@ ScytherEvosAttacks:
 	db 36, SLASH
 	db 42, SWORDS_DANCE
 	db 48, DOUBLE_TEAM
+	db 50, DOUBLE_HIT
 	db 0 ; no more level-up moves
 
 JynxEvosAttacks:
@@ -1732,6 +1735,7 @@ PinsirEvosAttacks:
 	db 7, FOCUS_ENERGY
 	db 13, BIND
 	db 19, SEISMIC_TOSS
+	db 24, DOUBLE_HIT
 	db 25, HARDEN
 	db 31, GUILLOTINE
 	db 37, SUBMISSION
@@ -2569,13 +2573,16 @@ JumpluffEvosAttacks:
 	db 0 ; no more level-up moves
 
 AipomEvosAttacks:
+	db EVOLVE_MOVE, DOUBLE_HIT, AMBIPOM
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, TAIL_WHIP
 	db 6, SAND_ATTACK
 	db 12, BATON_PASS
+	db 15, FIRE_PUNCH
 	db 19, FURY_SWIPES
 	db 27, SWIFT
+	db 32, DOUBLE_HIT
 	db 36, SCREECH
 	db 46, AGILITY
 	db 0 ; no more level-up moves
@@ -2692,6 +2699,7 @@ SlowkingEvosAttacks:
 	db 0 ; no more level-up moves
 
 MisdreavusEvosAttacks:
+	db EVOLVE_ITEM, MOON_STONE, MISMAGIUS
 	db 0 ; no more evolutions
 	db 1, GROWL
 	db 1, PSYWAVE
@@ -2726,6 +2734,7 @@ GirafarigEvosAttacks:
 	db 13, STOMP
 	db 20, AGILITY
 	db 30, BATON_PASS
+	db 32, DOUBLE_HIT
 	db 41, PSYBEAM
 	db 54, CRUNCH
 	db 0 ; no more level-up moves
@@ -3354,4 +3363,32 @@ CelebiEvosAttacks:
 	db 30, FUTURE_SIGHT
 	db 40, BATON_PASS
 	db 50, PERISH_SONG
+	db 0 ; no more level-up moves
+
+MismagiusEvosAttacks:
+	db 0 ; no more evolutions
+	db 1, GROWL
+	db 1, PSYWAVE
+	db 6, SPITE
+	db 12, CONFUSE_RAY
+	db 19, MEAN_LOOK
+	db 27, PSYBEAM
+	db 36, PAIN_SPLIT
+	db 46, PERISH_SONG
+	db 52, PSYCHIC_M
+	db 0 ; no more level-up moves
+	
+AmbipomEvosAttacks:
+	db 0 ; no more evolutions
+	db 1, SCRATCH
+	db 1, TAIL_WHIP
+	db 6, SAND_ATTACK
+	db 12, BATON_PASS
+	db 19, FURY_SWIPES
+	db 27, SWIFT
+	db 32, DOUBLE_HIT
+	db 36, THUNDERPUNCH
+	db 40, ICE_PUNCH
+	db 46, AGILITY
+	db 55, HYPER_BEAM
 	db 0 ; no more level-up moves

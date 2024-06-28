@@ -2355,7 +2355,11 @@ WinTrainerBattle:
 	ld a, b
 	call z, PlayVictoryMusic
 	callfar Battle_GetTrainerName
+	ld hl, BattleText_PluralEnemyWereDefeated
+	call IsPluralTrainer
+	jr z, .got_defeat_phrase
 	ld hl, BattleText_EnemyWasDefeated
+.got_defeat_phrase:
 	call StdBattleTextbox
 
 	call IsMobileBattle
@@ -2599,6 +2603,12 @@ IsGymLeaderCommon:
 	ret
 
 INCLUDE "data/trainers/leaders.asm"
+
+IsPluralTrainer:
+; return z for plural trainers
+	ld a, [wOtherTrainerClass]
+	cp TWINS
+	ret
 
 HandlePlayerMonFaint:
 	call FaintYourPokemon
@@ -3489,7 +3499,11 @@ OfferSwitch:
 	ld a, [wCurPartyMon]
 	push af
 	callfar Battle_GetTrainerName
+	ld hl, BattleText_EnemiesAreAboutToUseWillPlayerChangeMon
+	call IsPluralTrainer
+	jr z, .got_switch_phrase
 	ld hl, BattleText_EnemyIsAboutToUseWillPlayerChangeMon
+.got_switch_phrase:
 	call StdBattleTextbox
 	lb bc, 1, 7
 	call PlaceYesNoBox
@@ -6803,10 +6817,11 @@ BadgeStatBoosts:
 	ld hl, wBattleMonAttack
 	ld c, 4
 .CheckBadge:
-; BUG: Glacier Badge may not boost Special Defense depending on the value of Special Attack (see docs/bugs_and_glitches.md)
 	ld a, b
 	srl b
+	push af
 	call c, BoostStat
+	pop af
 	inc hl
 	inc hl
 ; Check every other badge.
@@ -9078,6 +9093,9 @@ BattleStartMessage:
 
 	farcall Battle_GetTrainerName
 
+	ld hl, WantToBattlePluralText
+	call IsPluralTrainer
+	jr z, .PrintBattleStartText
 	ld hl, WantsToBattleText
 	jr .PrintBattleStartText
 

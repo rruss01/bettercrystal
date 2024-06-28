@@ -86,6 +86,9 @@ EvolveAfterBattle_MasterLoop:
 
 	cp EVOLVE_HAPPINESS
 	jr z, .happiness
+	
+	cp EVOLVE_MOVE
+	jp z, .move_evo
 
 ; EVOLVE_STAT
 	ld a, [wTempMonLevel]
@@ -113,7 +116,7 @@ EvolveAfterBattle_MasterLoop:
 	jp nz, .dont_evolve_2
 
 	inc hl
-	jr .proceed
+	jp .proceed
 
 .happiness
 	ld a, [wTempMonHappiness]
@@ -180,6 +183,23 @@ EvolveAfterBattle_MasterLoop:
 	and a
 	jp nz, .dont_evolve_3
 	jr .proceed
+
+.move_evo
+	ld a, [hli]
+	ld b, a
+	ld de, wTempMonMoves
+	ld c, NUM_MOVES
+.checkMoveLoop
+	ld a, [de]
+	and a
+	jr z, .moveNotFound
+	inc de
+	cp b
+	jr z, .proceed
+	dec c
+	jr nz, .checkMoveLoop
+.moveNotFound
+	jp .dont_evolve_3
 
 .level
 	ld a, [hli]
@@ -620,8 +640,13 @@ GetPreEvolution:
 	ld a, [hli]
 	and a
 	jr z, .no_evolve ; If we jump, this Pokemon does not evolve into wCurPartySpecies.
+	cp EVOLVE_MOVE
+	jr z, .move_param
 	cp EVOLVE_STAT ; This evolution type has the extra parameter of stat comparison.
 	jr nz, .not_tyrogue
+	inc hl
+
+.move_param
 	inc hl
 
 .not_tyrogue

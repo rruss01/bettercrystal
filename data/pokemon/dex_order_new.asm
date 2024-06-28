@@ -124,6 +124,7 @@ NewPokedexOrder:
 	db VOLTORB
 	db ELECTRODE
 	db AIPOM
+	db AMBIPOM
 	db SNUBBULL
 	db GRANBULL
 	db VULPIX
@@ -216,6 +217,7 @@ NewPokedexOrder:
 	db MAGCARGO
 	db SNEASEL
 	db MISDREAVUS
+	db MISMAGIUS
 	db PORYGON
 	db PORYGON2
 	db CHANSEY

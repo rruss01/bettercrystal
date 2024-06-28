@@ -27,17 +27,17 @@ TreeMonSet_Canyon:
 	db  5, AIPOM,      10
 	db -1
 ; rare
-	db 50, SPEAROW,    10
-	db 15, HERACROSS,  10
-	db 15, HERACROSS,  10
-	db 10, AIPOM,      10
-	db  5, AIPOM,      10
-	db  5, AIPOM,      10
+	db 50, SPEAROW,    15
+	db 15, HERACROSS,  15
+	db 15, HERACROSS,  15
+	db 10, AIPOM,      15
+	db  5, AIPOM,      15
+	db  5, AIPOM,      15
 	db -1
 
 TreeMonSet_Town:
 ; common
-	db 50, SPEAROW,    10
+	db 50, AIPOM,      10
 	db 15, EKANS,      10
 	db 15, SPEAROW,    10
 	db 10, AIPOM,      10
@@ -45,12 +45,12 @@ TreeMonSet_Town:
 	db  5, AIPOM,      10
 	db -1
 ; rare
-	db 50, SPEAROW,    10
-	db 15, HERACROSS,  10
-	db 15, HERACROSS,  10
-	db 10, AIPOM,      10
-	db  5, AIPOM,      10
-	db  5, AIPOM,      10
+	db 50, HERACROSS,  15
+	db 15, HERACROSS,  15
+	db 15, HERACROSS,  15
+	db 10, AIPOM,      15
+	db  5, AIPOM,      15
+	db  5, AIPOM,      15
 	db -1
 
 TreeMonSet_Route:
@@ -63,12 +63,12 @@ TreeMonSet_Route:
 	db  5, EXEGGCUTE,  10
 	db -1
 ; rare
-	db 50, HOOTHOOT,   10
-	db 15, PINECO,     10
-	db 15, PINECO,     10
-	db 10, EXEGGCUTE,  10
-	db  5, EXEGGCUTE,  10
-	db  5, EXEGGCUTE,  10
+	db 50, HOOTHOOT,   15
+	db 15, PINECO,     15
+	db 15, PINECO,     15
+	db 10, EXEGGCUTE,  15
+	db  5, EXEGGCUTE,  15
+	db  5, EXEGGCUTE,  15
 	db -1
 
 TreeMonSet_Kanto:
@@ -81,12 +81,12 @@ TreeMonSet_Kanto:
 	db  5, EXEGGCUTE,  10
 	db -1
 ; rare
-	db 50, HOOTHOOT,   10
-	db 15, PINECO,     10
-	db 15, PINECO,     10
-	db 10, EXEGGCUTE,  10
-	db  5, EXEGGCUTE,  10
-	db  5, EXEGGCUTE,  10
+	db 50, HOOTHOOT,   15
+	db 15, PINECO,     15
+	db 15, PINECO,     15
+	db 10, EXEGGCUTE,  15
+	db  5, EXEGGCUTE,  15
+	db  5, EXEGGCUTE,  15
 	db -1
 
 TreeMonSet_Lake:
@@ -99,17 +99,17 @@ TreeMonSet_Lake:
 	db  5, EXEGGCUTE,  10
 	db -1
 ; rare
-	db 50, HOOTHOOT,   10
-	db 15, PINECO,     10
-	db 15, PINECO,     10
-	db 10, EXEGGCUTE,  10
-	db  5, EXEGGCUTE,  10
-	db  5, EXEGGCUTE,  10
+	db 50, HOOTHOOT,   15
+	db 15, PINECO,     15
+	db 15, PINECO,     15
+	db 10, EXEGGCUTE,  15
+	db  5, EXEGGCUTE,  15
+	db  5, EXEGGCUTE,  15
 	db -1
 
 TreeMonSet_Forest:
 ; common
-	db 50, HOOTHOOT,   10
+	db 50, PINECO,     10
 	db 15, PINECO,     10
 	db 15, PINECO,     10
 	db 10, NOCTOWL,    10
@@ -117,15 +117,15 @@ TreeMonSet_Forest:
 	db  5, BEEDRILL,   10
 	db -1
 ; rare
-	db 50, HOOTHOOT,   10
-	db 15, CATERPIE,   10
-	db 15, WEEDLE,     10
-	db 10, HOOTHOOT,   10
-	db  5, METAPOD,    10
-	db  5, KAKUNA,     10
+	db 50, HERACROSS,  15
+	db 15, CATERPIE,   15
+	db 15, WEEDLE,     15
+	db 10, HOOTHOOT,   15
+	db  5, METAPOD,    15
+	db  5, KAKUNA,     15
 	db -1
 
 TreeMonSet_Rock:
-	db 90, KRABBY,     15
-	db 10, SHUCKLE,    15
+	db 90, KRABBY,     20
+	db 10, SHUCKLE,    20
 	db -1

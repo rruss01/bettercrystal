@@ -6,6 +6,7 @@ AlphabeticalPokedexOrder:
 	db AERODACTYL
 	db AIPOM
 	db ALAKAZAM
+	db AMBIPOM
 	db AMPHAROS
 	db ARBOK
 	db ARCANINE
@@ -136,6 +137,7 @@ AlphabeticalPokedexOrder:
 	db MEWTWO
 	db MILTANK
 	db MISDREAVUS
+	db MISMAGIUS
 	db MOLTRES
 	db MR__MIME
 	db MUK
