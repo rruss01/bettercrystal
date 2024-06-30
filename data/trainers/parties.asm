@@ -4,15 +4,18 @@ Trainers:
 ; Trainer data structure:
 ; - db "NAME@", TRAINERTYPE_* constant
 ; - 1 to 6 Pokémon:
-;    * for TRAINERTYPE_NORMAL:     db level, species
-;    * for TRAINERTYPE_MOVES:      db level, species, 4 moves
-;    * for TRAINERTYPE_ITEM:       db level, species, item
-;    * for TRAINERTYPE_ITEM_MOVES: db level, species, item, 4 moves
+;   * for TRAINERTYPE_NORMAL:     db level, species
+;   * for TRAINERTYPE_MOVES:      db level, species, 4 moves
+;   * for TRAINERTYPE_ITEM:       db level, species, item
+;   * for TRAINERTYPE_ITEM_MOVES: db level, species, item, 4 moves
+;	* for TRAINERTYPE_NICKNAME:   db level, species, "NICKNAME@"
+;	* for TRAINERTYPE_DVS:		  db level, species, $AD, $SP
+;	* for TRAINERTYPE_UNOWN:	  db level, species, "NICKNAME@", $AD, $SP, item, 4 moves
 ; - db -1 ; end
 
-; TRAINERTYPE_NICKNAME | TRAINERTYPE_DVS
-; "MOLTRES@", $A5, $0F
-; "ZAPDOS@",  $30, $2F
+; UNOWN POKEMON DVs:
+;	* "MOLTRES@", $A5, $0F
+;	* "ZAPDOS@",  $30, $2F
 
 FalknerGroup:
 	; FALKNER (1)
@@ -292,7 +295,7 @@ KarenGroup:
 	db 54, UMBREON,     MIRACLEBERRY,   FAINT_ATTACK, DOUBLE_TEAM,  BATON_PASS, MOONLIGHT
 	db 53, GENGAR,      NO_ITEM,        SHADOW_BALL, HYPNOSIS, DREAM_EATER, CONFUSE_RAY
 	db 53, MISMAGIUS,   LEFTOVERS,      PSYCHIC_M, CONFUSE_RAY, CURSE, SHADOW_BALL
-	db 53, MURKROW,     SHARP_BEAK,     DRILL_PECK, FAINT_ATTACK, STEEL_WING, HAZE
+	db 53, HONCHKROW,   SHARP_BEAK,		DRILL_PECK, FAINT_ATTACK, STEEL_WING, HAZE
 	db 55, HOUNDOOM,    BLACKGLASSES,   FLAMETHROWER, CRUNCH, IRON_TAIL, REVERSAL
 	db -1 ; end
 
@@ -308,13 +311,13 @@ KogaGroup:
 
 ChampionGroup:
 	; CHAMPION (1)
-	db "LANCE@", TRAINERTYPE_ITEM_MOVES | TRAINERTYPE_DVS
-	db 54, GYARADOS,    LEFTOVERS,      SURF, RAIN_DANCE, HYPER_BEAM, ROCK_SMASH, $CC, $CC
-	db 55, DRAGONITE,   GOLD_BERRY,     BLIZZARD, FIRE_BLAST, THUNDER, EXTREMESPEED, $CC, $CC
-	db 54, CHARIZARD,   CHARCOAL,       FLAMETHROWER, WING_ATTACK, DOUBLE_TEAM, STEEL_WING, $CC, $CC
-	db 55, UNOWN,       MAGNET,         DRILL_PECK, SKY_ATTACK, THUNDERBOLT, THUNDER_WAVE, $30, $2F
-	db 54, AERODACTYL,  PINK_BOW,       WING_ATTACK, ROCK_SLIDE, HYPER_BEAM, EARTHQUAKE, $CC, $CC
-	db 56, DRAGONITE,   MIRACLEBERRY,   THUNDER, SAFEGUARD, OUTRAGE, HYPER_BEAM, $CC, $CC
+	db "LANCE@", TRAINERTYPE_UNOWN
+	db 54, GYARADOS,      "@", $CC, $CC, 	LEFTOVERS,      SURF, RAIN_DANCE, HYPER_BEAM, ROCK_SMASH
+	db 55, DRAGONITE,     "@", $CC, $CC, 	GOLD_BERRY,     BLIZZARD, FIRE_BLAST, THUNDER, EXTREMESPEED
+	db 54, CHARIZARD,  	  "@", $CC, $CC,	CHARCOAL,       FLAMETHROWER, WING_ATTACK, DOUBLE_TEAM, STEEL_WING
+	db 55, UNOWN,  	"ZAPDOS@", $30, $2F,  	MAGNET,         DRILL_PECK, SKY_ATTACK, THUNDERBOLT, THUNDER_WAVE
+	db 54, AERODACTYL,	  "@", $CC, $CC,  	PINK_BOW,       WING_ATTACK, ROCK_SLIDE, HYPER_BEAM, EARTHQUAKE
+	db 56, DRAGONITE,     "@", $CC, $CC, 	MIRACLEBERRY,   THUNDER, SAFEGUARD, OUTRAGE, HYPER_BEAM
 	db -1 ; end
 
 BrockGroup:
@@ -656,14 +659,14 @@ BirdKeeperGroup:
 	; BIRD_KEEPER (7)
 	db "VANCE@", TRAINERTYPE_NORMAL
 	db 36, PIDGEOT
-	db 36, MURKROW
+	db 36, HONCHKROW
 	db 36, XATU
 	db 37, SKARMORY
 	db -1 ; end
 
 	; BIRD_KEEPER (8)
 	db "HANK@", TRAINERTYPE_NORMAL
-	db 59, MURKROW
+	db 59, HONCHKROW
 	db 59, PIDGEOT
 	db -1 ; end
 
@@ -676,7 +679,7 @@ BirdKeeperGroup:
 	; BIRD_KEEPER (10)
 	db "BORIS@", TRAINERTYPE_NORMAL
 	db 60, YANMEGA
-	db 58, MURKROW
+	db 58, HONCHKROW
 	db 60, DODRIO
 	db -1 ; end
 
@@ -730,7 +733,7 @@ BirdKeeperGroup:
 	; BIRD_KEEPER (18)
 	db "VANCE@", TRAINERTYPE_NORMAL
 	db 46, PIDGEOT
-	db 48, MURKROW
+	db 48, HONCHKROW
 	db 47, XATU
 	db 49, SKARMORY
 	db -1 ; end
@@ -738,7 +741,7 @@ BirdKeeperGroup:
 	; BIRD_KEEPER (19)
 	db "VANCE@", TRAINERTYPE_NORMAL
 	db 55, PIDGEOT
-	db 56, MURKROW
+	db 56, HONCHKROW
 	db 54, XATU
 	db 55, SKARMORY
 	db -1 ; end
