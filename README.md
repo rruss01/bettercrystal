@@ -1,4 +1,4 @@
-# Pokémon Better Crystal [![Build Status][ci-badge]][ci]
+# Pokémon Better Crystal
 
 This is my first ROM hack. I'm trying to build a Gen 2 game that I enjoy as much as I enjoyed Pokémon Soul Silver, my first Pokémon game.
 The title is temporary; I have no idea what I'm going to name this when I finish it. 
