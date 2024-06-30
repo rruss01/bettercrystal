@@ -1,9 +1,20 @@
 # Pokémon Better Crystal
 
-This is my first ROM hack. I'm trying to build a Gen 2 game that I enjoy as much as I enjoyed Pokémon Soul Silver, my first Pokémon game.
-The title is temporary; I have no idea what I'm going to name this when I finish it. 
+This is my first ROM hack. I'm trying to build a Gen 2 game that I enjoy as much as I enjoyed Pokémon Soul Silver, my first Pokémon game. The title is temporary; I have no idea what I'm going to name this when I finish it. 
 
 To set up the repository, see [INSTALL.md](INSTALL.md).
+
+## Changes
+- Added Ambipom, Mismagius, and Yanmega
+  (I swapped Yanmega's SpA with its Atk because Bug is physical in this game)
+- Added Double Hit for Ambipom and allowed other Normal types to use it. 40 BP, two hits.
+- Various moves have been buffed, the most significant of which was probably Twineedle.
+- Slugma evolves at a more sensible level 27 (as opposed to 38, wtf)
+- Speaking of Fire types, the Burned Tower houses most of them now.
+- Unown has been removed from the wild.
+- Articuno, Zapdos, Moltres, and Mewtwo are unavailable, as they've already been caught by other trainers.
+- Unsure what to do with Mew and Celebi.
+- Honchkrow, Gliscor, Magmortar, and Electivire are planned. I feel as though Porygon2 and Piloswine are good enough.
 
 ## See also
 Obviously, this is a clone of the Pokémon Crystal Disassembly by pret. I used their [tutorials](https://github.com/pret/pokecrystal/wiki/Tutorials) extensively to make this. 
@@ -11,5 +22,7 @@ Obviously, this is a clone of the Pokémon Crystal Disassembly by pret. I used t
 I also used TheSmithPlays' [Pokémon Crystal Legacy](https://github.com/cRz-Shadows/Pokemon_Crystal_Legacy) trainer data and level scaling because I honestly think it fixes Gen 2's pacing issues.
 
 Various features from [Rangi42's Polished Crystal](https://github.com/Rangi42/polishedcrystal) were used, thanks to the pret tutorials. 
+
+Sprites from [Pokémon Prism](https://rainbowdevs.com/title/prism/) and [PokéWilds](https://github.com/SheerSt/pokewilds) were used. Thanks, nuuk!
 
 For other pret projects, see [pret.github.io](https://pret.github.io/).
