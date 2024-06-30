@@ -132,8 +132,8 @@ Rival1Group:
 	db -1 ; end
 
 	; RIVAL1 (3)
-	db "?@", TRAINERTYPE_NORMAL
-	db  5, TOTODILE
+	db "?@", TRAINERTYPE_DVS
+	db  5, UNOWN,	$30, $2F
 	db -1 ; end
 
 	; RIVAL1 (4)
