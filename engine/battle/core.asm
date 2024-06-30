@@ -6417,7 +6417,7 @@ LoadEnemyMon:
 
 ; Update enemy nickname
 	ld a, [wBattleMode]
-	dec a ; WILD_BATTLE ?
+	dec a ; WILD_BATTLE?
 	jr z, .no_nickname
 	ld a, [wOtherTrainerType]
 	bit TRAINERTYPE_NICKNAME_F, a

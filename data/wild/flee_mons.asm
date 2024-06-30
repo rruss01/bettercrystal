@@ -20,7 +20,7 @@ SometimesFleeMons:
 OftenFleeMons:
 	db CUBONE
 	db ARTICUNO
-	db ZAPDOS
+	db YANMEGA
 	db MOLTRES
 	db QUAGSIRE
 	db DELIBIRD

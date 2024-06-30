@@ -291,8 +291,8 @@ PokemonPicPointers::
 	dba_pic SnorlaxBackpic
 	dba_pic ArticunoFrontpic
 	dba_pic ArticunoBackpic
-	dba_pic ZapdosFrontpic
-	dba_pic ZapdosBackpic
+	dba_pic YanmegaFrontpic
+	dba_pic YanmegaBackpic
 	dba_pic MoltresFrontpic
 	dba_pic MoltresBackpic
 	dba_pic DratiniFrontpic

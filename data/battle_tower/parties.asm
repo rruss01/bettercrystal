@@ -2564,7 +2564,7 @@ BattleTowerMons:
 	bigdw 127 ; SDef
 	db "KUROBAtuTO@"
 
-	db ZAPDOS
+	db UNOWN
 	db MIRACLEBERRY
 	db DRILL_PECK, THUNDERBOLT, THUNDER_WAVE, HYPER_BEAM
 	dw 0 ; OT ID
@@ -2575,7 +2575,7 @@ BattleTowerMons:
 	bigdw 45000
 	bigdw 40000
 	bigdw 50000
-	dn 15, 13, 13, 14 ; DVs
+	dn  3,  0,  2, 15 ; DVs
 	db 20, 15, 20, 5 ; PP
 	db 0 ; Happiness
 	db 0, 0, 0 ; Pokerus, Caught data
@@ -2588,7 +2588,7 @@ BattleTowerMons:
 	bigdw 143 ; Spd
 	bigdw 171 ; SAtk
 	bigdw 136 ; SDef
-	db "SANDA-@@@@@"
+	db "ZAPDOS@@@@@"
 
 	db SKARMORY
 	db GOLD_BERRY
@@ -2879,7 +2879,7 @@ BattleTowerMons:
 	bigdw 158 ; SDef
 	db "KAIRIKI-@@@"
 
-	db ZAPDOS
+	db UNOWN
 	db MINT_BERRY
 	db REST, DRILL_PECK, THUNDERBOLT, THUNDER_WAVE
 	dw 0 ; OT ID
@@ -2890,7 +2890,7 @@ BattleTowerMons:
 	bigdw 50000
 	bigdw 55000
 	bigdw 50000
-	dn 13, 13, 15, 13 ; DVs
+	dn  3,  0,  2, 15 ; DVs
 	db 10, 20, 15, 20 ; PP
 	db 100 ; Happiness
 	db 0, 0, 0 ; Pokerus, Caught data
@@ -2903,7 +2903,7 @@ BattleTowerMons:
 	bigdw 177 ; Spd
 	bigdw 203 ; SAtk
 	bigdw 161 ; SDef
-	db "SANDA-@@@@@"
+	db "ZAPDOS@@@@@"
 
 	db WOBBUFFET
 	db GOLD_BERRY
@@ -3480,7 +3480,7 @@ BattleTowerMons:
 	bigdw 203 ; SDef
 	db "BANGIRASU@@"
 
-	db ZAPDOS
+	db UNOWN
 	db GOLD_BERRY
 	db THUNDERBOLT, DRILL_PECK, THUNDER_WAVE, HYPER_BEAM
 	dw 0 ; OT ID
@@ -3491,7 +3491,7 @@ BattleTowerMons:
 	bigdw 50000
 	bigdw 45000
 	bigdw 45000
-	dn 13, 11, 13, 15 ; DVs
+	dn  3,  0,  2, 15 ; DVs
 	db 15, 20, 20, 5 ; PP
 	db 100 ; Happiness
 	db 0, 0, 0 ; Pokerus, Caught data
@@ -3504,7 +3504,7 @@ BattleTowerMons:
 	bigdw 200 ; Spd
 	bigdw 238 ; SAtk
 	bigdw 189 ; SDef
-	db "SANDA-@@@@@"
+	db "ZAPDOS@@@@@"
 
 	db EXEGGUTOR
 	db MIRACLEBERRY

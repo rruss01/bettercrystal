@@ -103,6 +103,7 @@ NewPokedexOrder:
 	db NIDORINO
 	db NIDOKING
 	db YANMA
+	db YANMEGA
 	db SUNKERN
 	db SUNFLORA
 	db EXEGGCUTE
@@ -239,7 +240,6 @@ NewPokedexOrder:
 	db WARTORTLE
 	db BLASTOISE
 	db ARTICUNO
-	db ZAPDOS
 	db MOLTRES
 	db RAIKOU
 	db ENTEI

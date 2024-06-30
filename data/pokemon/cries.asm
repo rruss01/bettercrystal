@@ -150,7 +150,7 @@ PokemonCries::
 	mon_cry CRY_VILEPLUME,    32,  368 ; AERODACTYL
 	mon_cry CRY_GRIMER,       85,  129 ; SNORLAX
 	mon_cry CRY_RAICHU,      128,  192 ; ARTICUNO
-	mon_cry CRY_FEAROW,      255,  256 ; ZAPDOS
+	mon_cry CRY_TOTODILE,      0,  300 ; YANMEGA
 	mon_cry CRY_RAICHU,      248,  192 ; MOLTRES
 	mon_cry CRY_BULBASAUR,    96,  192 ; DRATINI
 	mon_cry CRY_BULBASAUR,    64,  256 ; DRAGONAIR
@@ -206,7 +206,7 @@ PokemonCries::
 	mon_cry CRY_MARILL,      -31,  384 ; MURKROW
 	mon_cry CRY_SLOWKING,    260,  512 ; SLOWKING
 	mon_cry CRY_HOOTHOOT,    304,  232 ; MISDREAVUS
-	mon_cry CRY_HOOTHOOT,    354,  256 ; UNOWN
+	mon_cry CRY_RAICHU,      248,  192 ; UNOWN
 	mon_cry CRY_AMPHAROS,    635,  324 ; WOBBUFFET
 	mon_cry CRY_GIRAFARIG,    65,  512 ; GIRAFARIG
 	mon_cry CRY_SLOWKING,    128,  256 ; PINECO

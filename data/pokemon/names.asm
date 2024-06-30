@@ -144,7 +144,7 @@ PokemonNames::
 	db "AERODACTYL"
 	db "SNORLAX@@@"
 	db "ARTICUNO@@"
-	db "ZAPDOS@@@@"
+	db "YANMEGA@@@"
 	db "MOLTRES@@@"
 	db "DRATINI@@@"
 	db "DRAGONAIR@"

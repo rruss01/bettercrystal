@@ -144,7 +144,7 @@ AnimationIdlePointers:
 	dw AerodactylAnimationIdle
 	dw SnorlaxAnimationIdle
 	dw ArticunoAnimationIdle
-	dw ZapdosAnimationIdle
+	dw YanmegaAnimationIdle
 	dw MoltresAnimationIdle
 	dw DratiniAnimationIdle
 	dw DragonairAnimationIdle

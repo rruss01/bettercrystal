@@ -74,7 +74,7 @@ Pokered_MonIndices:
 	db JYNX
 	db MOLTRES
 	db ARTICUNO
-	db ZAPDOS
+	db YANMEGA
 	db DITTO
 	db MEOWTH
 	db KRABBY

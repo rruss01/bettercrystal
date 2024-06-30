@@ -1961,16 +1961,16 @@ ArticunoEvosAttacks:
 	db 73, BLIZZARD
 	db 0 ; no more level-up moves
 
-ZapdosEvosAttacks:
+YanmegaEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, PECK
-	db 1, THUNDERSHOCK
-	db 13, THUNDER_WAVE
-	db 25, AGILITY
-	db 37, DETECT
-	db 49, DRILL_PECK
-	db 61, LIGHT_SCREEN
-	db 73, THUNDER
+	db 1, SLASH
+	db 1, CUT
+	db 1, WING_ATTACK
+	db 1, TWINEEDLE
+	db 1, SCREECH
+	db 41, CRUNCH
+	db 46, TWISTER
+	db 56, HYPNOSIS
 	db 0 ; no more level-up moves
 
 MoltresEvosAttacks:
@@ -2610,6 +2610,7 @@ SunfloraEvosAttacks:
 	db 0 ; no more level-up moves
 
 YanmaEvosAttacks:
+	db EVOLVE_MOVE, ANCIENTPOWER, YANMEGA
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, FORESIGHT
@@ -2617,7 +2618,7 @@ YanmaEvosAttacks:
 	db 13, DOUBLE_TEAM
 	db 19, SONICBOOM
 	db 25, DETECT
-	db 31, SUPERSONIC
+	db 31, ANCIENTPOWER
 	db 37, WING_ATTACK
 	db 43, SCREECH
 	db 0 ; no more level-up moves
