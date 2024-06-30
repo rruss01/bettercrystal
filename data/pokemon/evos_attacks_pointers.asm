@@ -147,7 +147,7 @@ EvosAttacksPointers::
 	dw SnorlaxEvosAttacks
 	dw ArticunoEvosAttacks
 	dw YanmegaEvosAttacks
-	dw MoltresEvosAttacks
+	dw HonchkrowEvosAttacks
 	dw DratiniEvosAttacks
 	dw DragonairEvosAttacks
 	dw DragoniteEvosAttacks

@@ -1973,14 +1973,14 @@ YanmegaEvosAttacks:
 	db 56, HYPNOSIS
 	db 0 ; no more level-up moves
 
-MoltresEvosAttacks:
+HonchkrowEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, WING_ATTACK
-	db 1, EMBER
-	db 13, FIRE_SPIN
+	db 1, MEAN_LOOK
+	db 1, PURSUIT
 	db 25, AGILITY
-	db 37, ENDURE
-	db 49, FLAMETHROWER
+	db 37, THIEF
+	db 49, CRUNCH
 	db 61, SAFEGUARD
 	db 73, SKY_ATTACK
 	db 0 ; no more level-up moves
@@ -2677,6 +2677,7 @@ UmbreonEvosAttacks:
 	db 0 ; no more level-up moves
 
 MurkrowEvosAttacks:
+	db EVOLVE_ITEM, MOON_STONE, HONCHKROW
 	db 0 ; no more evolutions
 	db 1, PECK
 	db 11, PURSUIT

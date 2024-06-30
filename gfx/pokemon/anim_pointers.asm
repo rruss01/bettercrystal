@@ -145,7 +145,7 @@ AnimationPointers:
 	dw SnorlaxAnimation
 	dw ArticunoAnimation
 	dw YanmegaAnimation
-	dw MoltresAnimation
+	dw HonchkrowAnimation
 	dw DratiniAnimation
 	dw DragonairAnimation
 	dw DragoniteAnimation

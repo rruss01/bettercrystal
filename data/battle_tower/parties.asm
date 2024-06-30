@@ -4211,7 +4211,7 @@ BattleTowerMons:
 	bigdw 185 ; SDef
 	db "EA-MUDO@@@@"
 
-	db MOLTRES
+	db CHARIZARD
 	db CHARCOAL
 	db FLAMETHROWER, SKY_ATTACK, STEEL_WING, HYPER_BEAM
 	dw 0 ; OT ID

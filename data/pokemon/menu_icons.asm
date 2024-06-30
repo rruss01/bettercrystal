@@ -147,7 +147,7 @@ MonMenuIcons:
 	db ICON_SNORLAX     ; SNORLAX
 	db ICON_BIRD        ; ARTICUNO
 	db ICON_BUG         ; YANMEGA
-	db ICON_BIRD        ; MOLTRES
+	db ICON_BIRD        ; HONCHKROW
 	db ICON_SERPENT     ; DRATINI
 	db ICON_SERPENT     ; DRAGONAIR
 	db ICON_BIGMON      ; DRAGONITE

@@ -146,7 +146,7 @@ PokedexDataPointerTable:
 	dw SnorlaxPokedexEntry
 	dw ArticunoPokedexEntry
 	dw YanmegaPokedexEntry
-	dw MoltresPokedexEntry
+	dw HonchkrowPokedexEntry
 	dw DratiniPokedexEntry
 	dw DragonairPokedexEntry
 	dw DragonitePokedexEntry

@@ -145,7 +145,7 @@ FramesPointers:
 	dw SnorlaxFrames
 	dw ArticunoFrames
 	dw YanmegaFrames
-	dw MoltresFrames
+	dw HonchkrowFrames
 	dw DratiniFrames
 	dw DragonairFrames
 	dw DragoniteFrames

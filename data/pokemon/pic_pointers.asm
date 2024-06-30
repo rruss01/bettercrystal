@@ -293,8 +293,8 @@ PokemonPicPointers::
 	dba_pic ArticunoBackpic
 	dba_pic YanmegaFrontpic
 	dba_pic YanmegaBackpic
-	dba_pic MoltresFrontpic
-	dba_pic MoltresBackpic
+	dba_pic HonchkrowFrontpic
+	dba_pic HonchkrowBackpic
 	dba_pic DratiniFrontpic
 	dba_pic DratiniBackpic
 	dba_pic DragonairFrontpic

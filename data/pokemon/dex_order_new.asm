@@ -212,6 +212,7 @@ NewPokedexOrder:
 	db RHYHORN
 	db RHYDON
 	db MURKROW
+	db HONCHKROW
 	db HOUNDOUR
 	db HOUNDOOM
 	db SLUGMA
@@ -240,7 +241,6 @@ NewPokedexOrder:
 	db WARTORTLE
 	db BLASTOISE
 	db ARTICUNO
-	db MOLTRES
 	db RAIKOU
 	db ENTEI
 	db SUICUNE

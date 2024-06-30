@@ -21,7 +21,7 @@ OftenFleeMons:
 	db CUBONE
 	db ARTICUNO
 	db YANMEGA
-	db MOLTRES
+	db HONCHKROW
 	db QUAGSIRE
 	db DELIBIRD
 	db PHANPY

@@ -164,7 +164,7 @@
 	const SNORLAX    ; 8f
 	const ARTICUNO   ; 90
 	const YANMEGA    ; 91
-	const MOLTRES    ; 92
+	const HONCHKROW  ; 92
 	const DRATINI    ; 93
 	const DRAGONAIR  ; 94
 	const DRAGONITE  ; 95

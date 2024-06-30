@@ -88,6 +88,7 @@ AlphabeticalPokedexOrder:
 	db HITMONLEE
 	db HITMONTOP
 	db HO_OH
+	db HONCHKROW
 	db HOOTHOOT
 	db HOPPIP
 	db HORSEA
@@ -138,7 +139,6 @@ AlphabeticalPokedexOrder:
 	db MILTANK
 	db MISDREAVUS
 	db MISMAGIUS
-	db MOLTRES
 	db MR__MIME
 	db MUK
 	db MURKROW

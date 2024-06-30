@@ -174,7 +174,7 @@ INCBIN "gfx/footprints/snorlax.1bpp"
 INCBIN "gfx/footprints/articuno.1bpp"   
 ; 145-152 
 INCBIN "gfx/footprints/yanmega.1bpp"     
-INCBIN "gfx/footprints/moltres.1bpp"
+INCBIN "gfx/footprints/honchkrow.1bpp"
 INCBIN "gfx/footprints/dratini.1bpp"    
 INCBIN "gfx/footprints/dragonair.1bpp"  
 INCBIN "gfx/footprints/dragonite.1bpp"  

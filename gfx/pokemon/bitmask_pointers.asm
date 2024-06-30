@@ -145,7 +145,7 @@ BitmasksPointers:
 	dw SnorlaxBitmasks
 	dw ArticunoBitmasks
 	dw YanmegaBitmasks
-	dw MoltresBitmasks
+	dw HonchkrowBitmasks
 	dw DratiniBitmasks
 	dw DragonairBitmasks
 	dw DragoniteBitmasks

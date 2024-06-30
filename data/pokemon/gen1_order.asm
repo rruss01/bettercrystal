@@ -72,7 +72,7 @@ Pokered_MonIndices:
 	db DODUO
 	db POLIWAG
 	db JYNX
-	db MOLTRES
+	db HONCHKROW
 	db ARTICUNO
 	db YANMEGA
 	db DITTO
