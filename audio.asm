@@ -22,7 +22,6 @@ INCLUDE "audio/music/newbarktown.asm"
 INCLUDE "audio/music/goldenrodcity.asm"
 INCLUDE "audio/music/vermilioncity.asm"
 INCLUDE "audio/music/titlescreen.asm"
-INCLUDE "audio/music/ruinsofalphinterior.asm"
 INCLUDE "audio/music/lookpokemaniac.asm"
 INCLUDE "audio/music/trainervictory.asm"
 
@@ -153,6 +152,7 @@ INCLUDE "audio/music/postcredits.asm"
 SECTION "New Songs", ROMX
 
 INCLUDE "audio/music/shop.asm"
+INCLUDE "audio/music/ruinsofalphinterior.asm"
 
 
 SECTION "Sound Effects", ROMX

@@ -361,6 +361,7 @@ CianwoodPokecenter1F_Blocks:
 ViridianPokecenter1F_Blocks:
 SaffronPokecenter1F_Blocks:
 CherrygrovePokecenter1F_Blocks:
+RuinsOfAlphAerodactylChamber_Blocks:
 	INCBIN "maps/Pokecenter1F.blk"
 
 BetaPewterMuseumOfScience1F_Blocks: ; unreferenced
@@ -487,7 +488,6 @@ RuinsOfAlphInnerChamber_Blocks:
 RuinsOfAlphHoOhChamber_Blocks:
 RuinsOfAlphKabutoChamber_Blocks:
 RuinsOfAlphOmanyteChamber_Blocks:
-RuinsOfAlphAerodactylChamber_Blocks:
 	INCBIN "maps/RuinsOfAlphPuzzleChamber.blk"
 
 SproutTower1F_Blocks:
