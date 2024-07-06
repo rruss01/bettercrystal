@@ -10,17 +10,17 @@ hack would be infinitely more boring without his hack, so huge shout-outs to TSP
 To set up the repository, see [INSTALL.md](INSTALL.md).
 
 ## Changes
-- Added Ambipom, Mismagius, and Yanmega
+- Added Ambipom, Honchkrow, Mismagius, and Yanmega
   (I swapped Yanmega's SpA with its Atk because Bug is physical in this game)
 - Added Double Hit for Ambipom and allowed other Normal types to use it. 40 BP, two hits.
 - Added running shoes, because walking takes forever.
 - Various moves have been buffed, the most significant of which was probably Twineedle.
 - Slugma evolves at a more sensible level 27 (as opposed to 38, wtf)
 - Speaking of Fire types, the Burned Tower houses most of them now.
-- Unown has been removed from the wild.
+- Unown has been removed from the wild. Unsure what to do with the Ruins of Alph.
 - Articuno, Zapdos, Moltres, and Mewtwo are unavailable, as they've already been caught by other trainers.
 - Unsure what to do with Mew and Celebi.
-- Honchkrow, Gliscor, Magmortar, and Electivire are planned. I feel as though Porygon2 and Piloswine are good enough.
+- Togekiss and Gliscor are planned. I feel as though Porygon2 and Piloswine are good enough, but we'll see. 
 
 ## See also
 Obviously, this is a clone of the Pokémon Crystal Disassembly by pret. I used their [tutorials](https://github.com/pret/pokecrystal/wiki/Tutorials) extensively to make this. 
