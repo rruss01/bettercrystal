@@ -94,7 +94,7 @@ ENDM
 	map_const RUINS_OF_ALPH_HO_OH_ITEM_ROOM,                4,  5 ; 29
 	map_const RUINS_OF_ALPH_KABUTO_ITEM_ROOM,               4,  5 ; 30
 	map_const RUINS_OF_ALPH_OMANYTE_ITEM_ROOM,              4,  5 ; 31
-	map_const RUINS_OF_ALPH_AERODACTYL_ITEM_ROOM,           4,  5 ; 32
+	map_const RUINS_OF_ALPH_AERODACTYL_ITEM_ROOM,           4,  4 ; 32
 	map_const RUINS_OF_ALPH_HO_OH_WORD_ROOM,               10, 12 ; 33
 	map_const RUINS_OF_ALPH_KABUTO_WORD_ROOM,              10,  7 ; 34
 	map_const RUINS_OF_ALPH_OMANYTE_WORD_ROOM,             10,  8 ; 35
