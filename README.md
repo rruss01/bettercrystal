@@ -17,10 +17,17 @@ To set up the repository, see [INSTALL.md](INSTALL.md).
 - Various moves have been buffed, the most significant of which was probably Twineedle.
 - Slugma evolves at a more sensible level 27 (as opposed to 38, wtf)
 - Speaking of Fire types, the Burned Tower houses most of them now.
-- Unown has been removed from the wild. Unsure what to do with the Ruins of Alph.
+- Unown has been removed from the wild.
+- The Ruins of Alph have been paved over and a new town has been built in its place. This town includes an NPC for trade evolutions and a mart with evolutionary stones.
 - Articuno, Zapdos, Moltres, and Mewtwo are unavailable, as they've already been caught by other trainers.
 - Unsure what to do with Mew and Celebi.
-- Togekiss and Gliscor are planned. I feel as though Porygon2 and Piloswine are good enough, but we'll see. 
+- Togekiss and Gliscor are planned. I feel as though Porygon2 and Piloswine are good enough, but we'll see.
+
+## TODO
+- Refactor all code surrounding the new town and restrict what you can do there before badge 4.
+- Remove all text mentioning the Ruins of Alph.
+- Finish the story.
+- Add a couple more moves.
 
 ## See also
 Obviously, this is a clone of the Pokémon Crystal Disassembly by pret. I used their [tutorials](https://github.com/pret/pokecrystal/wiki/Tutorials) extensively to make this. 
